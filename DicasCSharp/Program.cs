@@ -20,8 +20,8 @@ namespace DicasCSharp
             string msg = String.Format("Number1: {0}, Number2: {1}", n1, n2);
             Console.WriteLine(msg); // prints "Number1: 20, Number2: 30"
             
-            string msg = $"Number1: {n1}, Number2: {n2}";
-            Console.WriteLine(msg); // prints "Number1: 20, Number2: 30"
+            string msg2 = $"Number1: {n1}, Number2: {n2}";
+            Console.WriteLine(msg2); // prints "Number1: 20, Number2: 30"
         }
 
         private static void VerificarNullSemIf()
