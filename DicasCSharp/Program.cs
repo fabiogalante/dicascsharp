@@ -7,11 +7,8 @@ namespace DicasCSharp
         static void Main(string[] args)
         {
             IfTernario();
-
             DefaultValueForNull();
-
             VerificarNullSemIf();
-
             NeatString();
         }
 
